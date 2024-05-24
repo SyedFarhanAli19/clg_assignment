@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    background-image: url('gym_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:100% ;
+    
+  }
+  
+  header {
+    background-color: #111;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a{ 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  nav ul li a:hover {
+    background-color: rgb(100, 0, 0);
+    text-decoration: none;
+    color: #fff;
+  } 
+  
+  .header-image {
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .header-image h1 {
+    font-size: 2.5em;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .cta-btn:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(100, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .about-us, .features, .testimonials {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  
+  .feature {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial {
+  
+    margin-bottom: 10px;
+  }
+  
+  .contact-info, .social-media {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contact-info p, .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+  }
+  .input{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: white;
+    background-color: #111;
+  }
+  #head{
+    -webkit-text-stroke: 2px black;
+  }
